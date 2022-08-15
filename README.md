@@ -19,7 +19,7 @@ Workaround to make good old Canon iP1880 works in macOS Monterey
   - `PrinterDriver_iP1800 series_106702` folder will be put in ~/Desktop
   - Open _that_ folder
 3. Using terminal:
-  - $ sudo pkgutil --expand-full /Volumes/PrinterDriver_iP1800 series/PrinterDriver_iP1800 series_106702.pkg ~/Desktop/`CANON`
+  - $ sudo pkgutil --expand-full /Volumes/PrinterDriver_iP1800 series/PrinterDriver_iP1800 series_106702.pkg ~/Desktop/`CANON_EXPANDED`
   - Open _that_ folder
 4. Copy and paste the folder (and files inside), look at the table...
   - IF file exist, choose to `Replace`, not `Merge`
@@ -28,7 +28,7 @@ Workaround to make good old Canon iP1880 works in macOS Monterey
 |---|---|---|
 |CFMSupport   |~/Desktop/PrinterDriver_iP1800 series_106702/Library/    |/Users/yourname/Library/CFMSupport|
 |Canon   |~/Desktop/PrinterDriver_iP1800 series_106702/Library/Printers/   |/Library/Printers   |
-|CanonIJPPD.tgz |~/Desktop/PRINTER/ip1800.pkg/Scripts/PPD/ |/Library/Printers/PPDs/Contents/Resources |
+|CanonIJPPD.tgz |~/Desktop/CANON_EXPANDED/ip1800.pkg/Scripts/PPD/ |/Library/Printers/PPDs/Contents/Resources |
 
 5. Add printer in System Preferences
 6. Try to open `Printer Utility` and do some setting
